@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f9d75be114394b12",
+        "id": "8d2774316d6b9b3b",
         "type": "tabs",
         "children": [
           {
-            "id": "fab471ac8e8718a6",
+            "id": "0a69a8ea4d686e11",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "68e419ab0c0bca75",
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,12 +138,25 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1eccbb2bd2603a95",
+  "active": "0a69a8ea4d686e11",
   "lastOpenFiles": [
+    "前端部分/js/js性能优化.md",
+    "前端部分/js",
+    "前端部分/js部分",
+    "前端部分/新建文件夹",
+    "前端部分/ts/TS.md",
+    "前端部分/vscode工具开发/ast.md",
+    "前端部分/vscode工具开发/插件源码.md",
+    "前端部分/vscode工具开发/vscode语言类插件开发.md",
+    "前端部分/vscode工具开发",
+    "源码部分/vue源码初识.md",
+    "前端部分/ts/未命名.md",
+    "前端部分/ts",
+    "前端部分/未命名.md",
+    "README.md",
     "源码部分",
     "图形部分",
     "算法部分",
-    "前端部分",
-    "README.md"
+    "前端部分"
   ]
 }
