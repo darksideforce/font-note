@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "68e419ab0c0bca75",
@@ -156,6 +157,7 @@
   },
   "active": "330d6bbc58a957b5",
   "lastOpenFiles": [
+    "Pasted image 20240311235526.png",
     "Pasted image 20240310162345.png",
     "源码部分/vue源码/vue方法绑定.md",
     "源码部分/vue源码/2.vue实例创建.md",
