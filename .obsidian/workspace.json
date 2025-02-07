@@ -187,8 +187,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2dcf5824a2715137",
+  "active": "1eccbb2bd2603a95",
   "lastOpenFiles": [
+    "源码部分/vue源码/vue方法绑定.md",
+    "源码部分/vue源码/2.vue实例创建.md",
+    "源码部分/vue源码/1.vue源码初识.md",
+    "前端部分/electron/electron基本f&q.md",
+    "前端部分/electron",
+    "Pasted image 20240311235526.png",
+    "Pasted image 20240310162345.png",
+    "Pasted image 20240310161024.png",
+    "Pasted image 20240310154401.png",
     "前端部分/ts/2.ts技巧.md",
     "前端部分/ts体操/3.将元组转为对象.md",
     "前端部分/ts体操/2.实现readonly.md",
@@ -222,11 +231,6 @@
     "未命名.md",
     "未命名",
     "算法部分/基础算法",
-    "源码部分/vue源码",
-    "前端部分/js/js性能优化.md",
-    "前端部分/vscode工具开发/ast.md",
-    "前端部分/vscode工具开发/插件源码.md",
-    "前端部分/vscode工具开发/vscode语言类插件开发.md",
-    "源码部分/vue源码/vue源码初识.md"
+    "前端部分/js/js性能优化.md"
   ]
 }
