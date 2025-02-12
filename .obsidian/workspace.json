@@ -146,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -163,19 +163,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "330d6bbc58a957b5",
+  "active": "1eccbb2bd2603a95",
   "lastOpenFiles": [
-    "前端部分/ts/1.ts基本语法.md",
-    "前端部分/ts体操/7.实现数组的includes.md",
-    "前端部分/ts/2.ts技巧.md",
-    "前端部分/ts体操/未命名.md",
+    "前端部分/开源框架/2.vue-pure-admin框架学习.md",
+    "前端部分/开源框架/1.按照开源框架学习.md",
     "前端部分/ts/3.泛型.md",
+    "前端部分/ts体操/未命名.md",
+    "前端部分/ts体操/7.实现数组的includes.md",
+    "学习规划.md",
+    "前端部分/ts/2.ts技巧.md",
+    "前端部分/ts/1.ts基本语法.md",
     "前端部分/ts体操/6.获取promise的返回类型.md",
     "前端部分/ts体操/5.获取数组的长度.md",
     "前端部分/ts体操/4.使用ts获取数组首个元素.md",
     "前端部分/ts体操/3.将元组转为对象.md",
     "前端部分/ts体操/2.实现readonly.md",
-    "学习规划.md",
     "源码部分/vue源码/1.vue源码初识.md",
     "未命名.md",
     "assets",
@@ -201,8 +203,6 @@
     "前端部分/ts体操",
     "assets/7.png",
     "assets/2.png",
-    "前端部分/前端项目/自定义http表单.md",
-    "前端部分/js/js性能优化.md",
     "assets/Pasted image 20240311235526.png",
     "assets/Pasted image 20240310162345.png",
     "assets/Pasted image 20240310161024.png",
