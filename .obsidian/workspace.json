@@ -172,7 +172,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 488.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,7 +185,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ebbdfd52e04ca5f2",
+  "active": "173a4625f2393ac6",
   "lastOpenFiles": [
     "前端部分/react学习/react基本使用/3：在react中使用ts.md",
     "前端部分/react学习/未命名.md",
