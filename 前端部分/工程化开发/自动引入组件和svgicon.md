@@ -101,3 +101,19 @@ import SvgIcon from "@/components/SvgIcon/index.vue";
 </script>
 <style lang="scss" scoped></style>
 ```
+这里的name就是导向之前在vite.config.js内配置的symbolId格式
+6：注册到全局
+在main.ts文件中进行导入
+
+```javascript
+import { createApp } from 'vue';
+import App from './App.vue';
+import SvgIcon from './components/SvgIcon.vue';
+
+const app = createApp(App);
+
+// 全局注册 SvgIcon 组件
+app.component('SvgIcon', SvgIcon);
+
+app.mount('#app');
+```

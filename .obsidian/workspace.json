@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6036440eb113fca7",
+        "id": "62b22de6b3d355f3",
         "type": "tabs",
         "children": [
           {
-            "id": "330d6bbc58a957b5",
+            "id": "ebbdfd52e04ca5f2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "前端部分/ts/2.ts技巧.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -38,8 +36,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -48,13 +49,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#cjs",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -62,7 +65,9 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           },
           {
@@ -70,14 +75,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 217.5040512084961
   },
   "right": {
     "id": "68e419ab0c0bca75",
@@ -93,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端部分/ts/2.ts技巧.md",
+                "file": "前端部分/开源框架/2.vue-pure-admin框架国际化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +108,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "2.vue-pure-admin框架国际化 的反向链接列表"
             }
           },
           {
@@ -110,10 +119,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端部分/ts/2.ts技巧.md",
+                "file": "前端部分/开源框架/2.vue-pure-admin框架国际化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "2.vue-pure-admin框架国际化 的出链列表"
             }
           },
           {
@@ -123,8 +134,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -133,8 +148,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端部分/ts/2.ts技巧.md"
-              }
+                "file": "前端部分/开源框架/2.vue-pure-admin框架国际化.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "2.vue-pure-admin框架国际化 的大纲"
             }
           },
           {
@@ -142,7 +162,9 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -150,7 +172,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 429.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,49 +185,52 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1eccbb2bd2603a95",
+  "active": "ebbdfd52e04ca5f2",
   "lastOpenFiles": [
-    "前端部分/开源框架/2.vue-pure-admin框架学习.md",
-    "前端部分/开源框架/1.按照开源框架学习.md",
-    "前端部分/ts/3.泛型.md",
-    "前端部分/ts体操/未命名.md",
-    "前端部分/ts体操/7.实现数组的includes.md",
-    "学习规划.md",
-    "前端部分/ts/2.ts技巧.md",
-    "前端部分/ts/1.ts基本语法.md",
-    "前端部分/ts体操/6.获取promise的返回类型.md",
-    "前端部分/ts体操/5.获取数组的长度.md",
-    "前端部分/ts体操/4.使用ts获取数组首个元素.md",
-    "前端部分/ts体操/3.将元组转为对象.md",
-    "前端部分/ts体操/2.实现readonly.md",
-    "源码部分/vue源码/1.vue源码初识.md",
-    "未命名.md",
-    "assets",
+    "前端部分/react学习/react基本使用/3：在react中使用ts.md",
+    "前端部分/react学习/未命名.md",
+    "前端部分/react学习/react基本使用",
+    "前端部分/react学习/react基本使用/2：react的常用插件以及hooks.md",
+    "前端部分/react学习/react基本使用/1：react的基本使用与组件.md",
+    "前端部分/react学习/nextjs/1.入门和使用.md",
+    "面试部分/该如何做/如何兼容不同游览器.md",
+    "面试部分/框架部分/vue面试.md",
+    "面试部分/前端部分/js面试.md",
+    "面试部分/项目部分/项目亮点.md",
+    "面试部分/该如何做/如何优化网页性能.md",
+    "面试部分/该如何做/如何实现移动端适配.md",
+    "面试部分/该如何做/如何实现一个链接识别不同的端.md",
+    "面试部分/该如何做/如何实现请求队列？.md",
+    "面试部分/该如何做/如何实现前端截图.md",
+    "面试部分/该如何做/如何优化seo.md",
+    "面试部分/该如何做/手写数组的一个高阶函数.md",
+    "面试部分/前端部分/http面试.md",
+    "面试部分/该如何做/你在vite或webpack中配置过什么吗.md",
+    "面试部分/该如何做/如何减少前端的服务器压力.md",
+    "面试部分/该如何做/静态资源加载失败如何处理.md",
+    "面试部分/该如何做/函数式编程思想.md",
+    "面试部分/该如何做/安卓和前端怎么通信.md",
+    "面试部分/该如何做/项目难点：.md",
+    "面试部分/该如何做",
+    "前端部分/样式/tailwind.md",
+    "前端部分/样式",
+    "前端部分/未命名.md",
+    "前端部分/react学习/nextjs",
     "未命名",
-    "前端部分/开源框架/1-按照开源框架学习.md",
-    "算法部分/数学类算法/1.除自身以外数组的乘积（原理未知）.md",
-    "算法部分/数学类算法",
-    "算法部分/基础算法/8.转换数字为罗马数字-贪心算法.md",
-    "算法部分/基础算法/7.删除数组中出现固定次数项（双指针）.md",
-    "算法部分/基础算法/6.O(1) 时间插入、删除和获取随机元素-哈希表.md",
-    "算法部分/基础算法/5.H指数.md",
-    "算法部分/各种算法/字符串算法/kmp算法.md",
-    "算法部分/各种算法/字符串算法",
-    "算法部分/各种算法",
-    "图形部分/threejs学习/初入threejs.md",
-    "图形部分/threejs学习",
-    "图形部分",
-    "前端部分/工程化开发/自动引入组件和svgicon.md",
-    "前端部分/工程化开发/学习vue后台模板写法：soybean.md",
-    "前端部分/工程化开发",
-    "前端部分/vue学习/hooks.md",
-    "前端部分/vue学习",
-    "前端部分/ts体操",
+    "面试部分/框架部分",
+    "面试部分/前端部分",
+    "面试部分/项目部分",
+    "面试部分",
+    "前端部分/react学习",
+    "源码部分/手写vue/assets/Pasted image 20250310174857.png",
+    "源码部分/minivue/assets/Pasted image 20250225001908.png",
+    "前端部分/开源框架/assets/Pasted image 20250226161149.png",
+    "前端部分/开源框架/assets/Pasted image 20250226154841.png",
+    "assets/Pasted image 20250225001815.png",
+    "assets/Pasted image 20240311235526.png",
+    "assets/Pasted image 20250225001656.png",
     "assets/7.png",
     "assets/2.png",
-    "assets/Pasted image 20240311235526.png",
-    "assets/Pasted image 20240310162345.png",
-    "assets/Pasted image 20240310161024.png",
-    "assets/Pasted image 20240310154401.png"
+    "assets/Pasted image 20240310162345.png"
   ]
 }
