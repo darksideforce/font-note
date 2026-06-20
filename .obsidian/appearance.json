@@ -1,6 +1,11 @@
 {
   "accentColor": "",
-  "baseFontSize": 14,
+  "baseFontSize": 11,
   "baseFontSizeAction": true,
-  "translucency": false
+  "translucency": true,
+  "cssTheme": "Wasp",
+  "enabledCssSnippets": [
+    "mermaid"
+  ],
+  "showRibbon": false
 }

@@ -4,5 +4,6 @@
   "newFileFolderPath": "assets",
   "newLinkFormat": "absolute",
   "promptDelete": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "readableLineLength": false
 }

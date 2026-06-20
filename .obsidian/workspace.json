@@ -4,17 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "62b22de6b3d355f3",
+        "id": "d110f0c7313dbb33",
         "type": "tabs",
         "children": [
           {
-            "id": "ebbdfd52e04ca5f2",
+            "id": "5590e92278e99065",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "前端部分/react学习/nextjs/nextjs的中间件：路由校验.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "nextjs的中间件：路由校验"
+            }
+          },
+          {
+            "id": "0358fe45d336d29f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端部分/react学习/二.接入better-auth.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "二.接入better-auth"
             }
           }
         ]
@@ -49,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#cjs",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,8 +84,8 @@
             "state": {
               "type": "starred",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "lucide-ghost",
+              "title": "starred"
             }
           },
           {
@@ -84,7 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 217.5040512084961
+    "width": 331.5
   },
   "right": {
     "id": "68e419ab0c0bca75",
@@ -172,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 488.5
+    "width": 488.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,55 +201,58 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-git:Open Git source control": false
+      "bases:新建数据库": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "173a4625f2393ac6",
+  "active": "5590e92278e99065",
   "lastOpenFiles": [
-    "前端部分/react学习/react基本使用/3：在react中使用ts.md",
-    "前端部分/react学习/未命名.md",
-    "前端部分/react学习/react基本使用",
-    "前端部分/react学习/react基本使用/2：react的常用插件以及hooks.md",
-    "前端部分/react学习/react基本使用/1：react的基本使用与组件.md",
-    "前端部分/react学习/nextjs/1.入门和使用.md",
-    "面试部分/该如何做/如何兼容不同游览器.md",
-    "面试部分/框架部分/vue面试.md",
-    "面试部分/前端部分/js面试.md",
-    "面试部分/项目部分/项目亮点.md",
-    "面试部分/该如何做/如何优化网页性能.md",
-    "面试部分/该如何做/如何实现移动端适配.md",
-    "面试部分/该如何做/如何实现一个链接识别不同的端.md",
-    "面试部分/该如何做/如何实现请求队列？.md",
-    "面试部分/该如何做/如何实现前端截图.md",
-    "面试部分/该如何做/如何优化seo.md",
-    "面试部分/该如何做/手写数组的一个高阶函数.md",
-    "面试部分/前端部分/http面试.md",
-    "面试部分/该如何做/你在vite或webpack中配置过什么吗.md",
-    "面试部分/该如何做/如何减少前端的服务器压力.md",
-    "面试部分/该如何做/静态资源加载失败如何处理.md",
-    "面试部分/该如何做/函数式编程思想.md",
-    "面试部分/该如何做/安卓和前端怎么通信.md",
-    "面试部分/该如何做/项目难点：.md",
-    "面试部分/该如何做",
-    "前端部分/样式/tailwind.md",
-    "前端部分/样式",
-    "前端部分/未命名.md",
-    "前端部分/react学习/nextjs",
-    "未命名",
-    "面试部分/框架部分",
-    "面试部分/前端部分",
-    "面试部分/项目部分",
-    "面试部分",
-    "前端部分/react学习",
+    "前端部分/react学习/nextjs/在nextjs中使用zustand.md",
+    "前端部分/react学习/nextjs/nextjs的中间件：路由校验.md",
+    "agent开发部分/lobehub解析/ai实战/3.建立数据库.md",
+    "agent开发部分/lobehub解析/ai实战/2.引入drizzle和better-auth实现登陆.md",
+    "前端部分/react学习/react基本使用/react中向上传递事件.md",
+    "agent开发部分/lobehub解析/ai架构/后端 - 订阅发布模式.md",
+    "agent开发部分/lobehub解析/ai架构/后端 - 创建sse接口.md",
+    "前端部分/react学习/二.接入better-auth.md",
+    "个人杂谈/如何取舍ai开发和自己学习的边界.md",
+    "前端部分/css/tailwindcss/1.创建属于自己的tailwindcss变量.md",
+    "个人杂谈",
+    "前端部分/css/tailwindcss",
+    "前端部分/css",
+    "README.md",
+    "长链接 (Long Polling/SSE).md",
+    "前端部分/react学习/三.nextjs中间件.md",
+    "agent开发部分/lobehub解析/ai实战/1.目录.md",
+    "agent开发部分/lobehub解析/ai实战/未命名",
+    "agent开发部分/lobehub解析/ai架构/后端 - 物理执行器.md",
+    "agent开发部分/lobehub解析/ai实战",
+    "agent开发部分/lobehub解析/ai架构/后端 - 线路概览.md",
+    "agent开发部分/lobehub解析/ai架构/如何实现流式传输.md",
+    "Excalidraw/Agent 工具拦截与授权分流.flowchart.md",
+    "agent开发部分/lobehub解析/ai架构/技术架构.md",
+    "agent开发部分/lobehub解析/ai架构/后端 - agent的附件上传.md",
+    "agent开发部分/lobehub解析/ai架构/agent runtime - 大脑.md",
+    "agent开发部分/lobehub解析/ai架构/agent runtime - 引擎.md",
+    "agent开发部分/lobehub解析/ai架构/后端 - streamEventmanager.md",
+    "agent开发部分/lobehub解析/ai架构/gateway - 前端 - 事件处理器.md",
+    "agent开发部分/lobehub解析/ai架构/未命名",
+    "agent开发部分/lobehub解析/ai架构/agent runtime - 与大模型通信.md",
+    "agent开发部分/lobehub解析/ai架构/一次点击发送做了一些什么？.md",
+    "Excalidraw",
+    "长链接 (Long Polling",
+    "前端部分/开源框架/assets/Pasted image 20250226161149.png",
+    "assets/7.png",
+    "assets/2.png",
+    "skills-lock.json",
+    "鞭策",
     "源码部分/手写vue/assets/Pasted image 20250310174857.png",
     "源码部分/minivue/assets/Pasted image 20250225001908.png",
-    "前端部分/开源框架/assets/Pasted image 20250226161149.png",
     "前端部分/开源框架/assets/Pasted image 20250226154841.png",
     "assets/Pasted image 20250225001815.png",
     "assets/Pasted image 20240311235526.png",
     "assets/Pasted image 20250225001656.png",
-    "assets/7.png",
-    "assets/2.png",
     "assets/Pasted image 20240310162345.png"
   ]
 }
