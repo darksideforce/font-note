@@ -236,6 +236,114 @@ export function LoginForm() {
 }
 ```
 
+
+## 分割slice
+### 使用类型
+很多时候我们需要更加优雅的工程实现。比如有时候一个统一的store下也会有逻辑自成一块的的一些state和actions，但是和其他的state还是有一些关联，为了后续开发的方便，我们自然而然的会想把这部分逻辑单独放一个文件夹里，这在zustand里就被叫做slice
+如何优雅的实现slice呢？而且最重要的是，如何保证slice可以读取到其他slice里的state呢？最终又如何进行组装？这是一个比较复杂的问题我来单独描述一下。
+
+首先是如何解决ts类型问题，在写单独slice的时候我们肯定是需要ts类型推断的，我在这里的做法是每个slice写一个state类型进行导出，最终在外层组装这个state，作为全局state。
+```ts
+export interface chatStore extends ChatTopicState, ChatMessageState, ChatOperationState { }
+```
+这里extends的所有ts类型都是单独的一个state，接下来的重点转移到actions，actions我们可以使用一种zustand提供的ts类型来进行推导`StateCreator`这个泛形的目的就是为了推导出参数的类型，比如当我们创建一个slice的时候，需要使用到get和set的话就需要用到它
+
+```ts
+const createFishSlice: StateCreator<SharedState, [], [], FishSlice> = (set) => ({
+  fishes: 0,
+  addFish: () => set((state) => ({ fishes: state.fishes + 1 })),
+})
+```
+当然我们也可以使用更进一步的封装：
+```ts
+export type sliceCreator<T, P> = (
+    set: Parameters<StateCreator<P>>[0],
+    get: Parameters<StateCreator<P>>[1],
+    store: Parameters<StateCreator<P>>[2]
+) => T;
+```
+这一步就可以直接拿到set，get和store的类型，需要注意一下这两者都是给slice的get和set进行类型推导使用的，只不过第一种`StateCreator`是官方提供的，它代表了函数签名，我们往反省中传入4个参数
+1. `SharedState` (整个大 Store 的类型)
+2. `[]` (输入的中间件)
+3. `[]` (输出的中间件)
+4. `FishSlice` (当前切片的类型)
+ts就可以根据函数签名自动推导出类型签名，其实作用就和下面更一步的sliceCreatetor是一样的，只不过上面的类型是给创建slice使用，而如果我们需要把actions也单独放一个文件就需要下面的这个手写类型来推导出set和get
+
+### 开始分割
+首先我们需要准备一个slice文件，每个slice文件分为`state`和`actions`和`index`文件
+**state**文件
+```ts
+import { ChatMessage } from "@/types/message";
+import { ChatTopic } from "@/types/topic";
+
+export interface TopicMetaData extends ChatTopic {
+    status: 'active' | 'running' | 'completed' | 'archived';
+    metadata: any //待扩展
+}
+
+//对话中信息任务调度
+export interface ChatMessageState {
+    messagesMap: Record<string, ChatMessage>
+}
+export const chatMessageState: ChatMessageState = {
+    messagesMap: {}
+}
+```
+这是最简单的，单纯的导出state就可以
+**actions**文件
+```ts
+import { StateCreator } from "zustand";
+import { chatStore } from "../../initialState";
+import { sliceCreator } from "@/types/store";
+
+export interface ChatMessageActions {
+    optimisticCreateMessage: () => void;
+    fetchMessage: () => void;
+    internal_dispatchMessage: () => void;
+    modifyMessageContent: () => void;
+    deleteMessage: () => void;
+    clearAllMessages: () => void;
+
+}
+
+export const chatMessageActions: sliceCreator<ChatMessageActions, chatStore> = (
+    set,
+    get,
+    store
+) => {
+    return {
+        optimisticCreateMessage: () => { },
+        fetchMessage: () => { },
+        internal_dispatchMessage: () => { },
+        modifyMessageContent: () => { },
+        deleteMessage: () => { },
+        clearAllMessages: () => { }
+    }
+}
+```
+这一步需要使用到我们上一步说到的封装的ts类型，传入当前的actions和全局的store就可以，一定要传入全局的store，保证当前slice可以读取到所有state
+**index**文件
+```ts
+import { StateCreator } from "zustand";
+import { ChatMessageActions, chatMessageActions } from "./action";
+import { chatMessageState, ChatMessageState } from "./initialState";
+import { chatStore } from "../../index";
+
+export type chatMessageSlice = ChatMessageActions & ChatMessageState
+
+export const createChatMessageSlice: StateCreator<chatStore, [], [], chatMessageSlice> = (
+    set,
+    get,
+    store
+) => {
+    return {
+        ...chatMessageActions(set, get, store),
+        ...chatMessageState,
+    }
+}
+```
+最终使用和上面章节一样的方法createstore并暴露出hooks和provider即可
+
 ## 待创建术语笔记 📝
 
 - [ ] [[Hydration Mismatch]]：解释服务端渲染结果和客户端首次渲染结果不一致时为什么会报错。 #待创建术语笔记
