@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "agent开发部分/lobehub解析/ai实战/11.底层与大模型通信、包装sse流.md",
-                "mode": "preview",
+                "file": "agent开发部分/lobehub解析/ai实战/9.执行器-核心部分.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11.底层与大模型通信、包装sse流"
+              "title": "9.执行器-核心部分"
             }
           }
         ],
@@ -209,14 +209,14 @@
   },
   "active": "490c31f921d2e739",
   "lastOpenFiles": [
-    "后端部分/网络/sse的实现与原理.md",
+    "agent开发部分/lobehub解析/ai实战/10.provider底座、模型适配器、.md",
     "agent开发部分/lobehub解析/ai实战/11.底层与大模型通信、包装sse流.md",
-    "agent开发部分/lobehub解析/ai实战/8. 引擎、大脑.md",
     "agent开发部分/lobehub解析/ai实战/9.执行器-核心部分.md",
+    "后端部分/网络/sse的实现与原理.md",
+    "agent开发部分/lobehub解析/ai实战/8. 引擎、大脑.md",
     "agent开发部分/lobehub解析/ai架构/一次点击发送做了一些什么？.md",
     "后端部分/网络",
     "后端部分",
-    "agent开发部分/lobehub解析/ai实战/10.统一运行时入口、模型适配器、.md",
     "agent开发部分/lobehub解析/ai实战/7.长久化运行后端.md",
     "agent开发部分/lobehub解析/ai架构/后端 - 线路概览.md",
     "agent开发部分/lobehub解析/ai架构/后端 - 物理执行器.md",
